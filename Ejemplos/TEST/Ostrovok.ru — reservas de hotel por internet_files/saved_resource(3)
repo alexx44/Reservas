@@ -1,0 +1,45 @@
+(function (window, document) { 
+try { 
+if (document.readyState !== 'interactive' && document.readyState !== 'complete') { 
+   var callee = arguments.callee; 
+   setTimeout(function () { callee(window, document) }, 100); 
+   return; 
+}
+
+(function (window, document) { 
+try { 
+(function () {
+                var body = document.getElementsByTagName('body')[0];
+                if (body) {
+                    var tmp = document.createElement('div');
+                    tmp.innerHTML = decodeURIComponent('%3Cimg%20src%3D%22https%3A%2F%2Fmc.yandex.ru%2Fwatch%2F39016265%22%20style%3D%22position%3Aabsolute%3B%20left%3A-9999px%3B%22%20alt%3D%22%22%20%2F%3E');
+                    for (var i = 0; i < tmp.childNodes.length; i++) {
+                        body.appendChild(tmp.childNodes[i]);
+                    }
+                }
+            })();
+} catch (e) { 
+console.log(e); 
+} 
+})(window, document);
+
+(function (window, document) { 
+try { 
+(function () {
+                var body = document.getElementsByTagName('body')[0];
+                if (body) {
+                    var tmp = document.createElement('div');
+                    tmp.innerHTML = decodeURIComponent('%3Cimg%20src%3D%22%2F%2Fvk.com%2Frtrg%3Fr%3DddmzGzoOyrephVYtGsYJKU*jIWI1Hlhexw1RFJbh%2F34UoPJbEhBSpjW99NLV8dR7F*tfrkvBU3EwNVzVAKbq0D9LFMic5HeliW6RmoqwxXORO0feHFxfrEbr431RwZ0qXbhcKbqm09P1rz5v5SfDGb5IvQK2qDaTq9oWM5c9zDE-%26pixel_id%3D1000024143%22%20width%3D%221%22%20height%3D%221%22%20border%3D%220%22%20%2F%3E');
+                    for (var i = 0; i < tmp.childNodes.length; i++) {
+                        body.appendChild(tmp.childNodes[i]);
+                    }
+                }
+            })();
+} catch (e) { 
+console.log(e); 
+} 
+})(window, document);
+} catch (e) { 
+console.log(e); 
+} 
+})(window, document);

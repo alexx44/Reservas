@@ -23,10 +23,32 @@
 </div>
 -->
 <div class="jumbotron">
-  <h1>'Allo, 'Allo!</h1>
-  <p class="lead">
-    <img src="images/yeoman.png" alt="I'm Yeoman"><br>
-    Always a pleasure scaffolding your apps.
-  </p>
-  <p><a class="btn btn-lg btn-success" ng-href="#/">Splendid!<span class="glyphicon glyphicon-ok"></span></a></p>
+    <h2>Donde quieres viajar?</h2>
+    <p class="lead">
+        <select name="Ciudades">
+            <option selected value="0"> Elige una opción </option>
+            <optgroup label="Quinta Region">
+                <option value="1">El Quisco</option>
+                <option value="2">El Tabo</option>
+                <option value="3">Las Cruces</option>
+            </optgroup>
+            <optgroup label="Cuarta Region">
+                <option value="10">Illapel</option>
+                <option value="11">Punitaqui</option>
+                <option value="12">Vicuña</option>
+            </optgroup>
+        </select>
+        <br>
+        <div class="searchform-dates">
+            <div class="searchform-label searchform-dates-label">Fechas de check-in y de check-out</div>
+            <span class="graybutton searchform-dates-button" role="button" tabindex="0" style="user-select: none;">
+            <span class="graybutton-content graybutton-content-original">
+            <span class="graybutton-from">12 nov.</span>
+            <span class="graybutton-separator">–</span>
+            <span class="graybutton-to">13 nov.</span>
+            </span>
+            </span>
+        </div>
+    </p>
+    <p><a class="btn btn-lg btn-success" ng-href="#/">Buscar  <span class="glyphicon glyphicon-search"></span></a></p>
 </div>
