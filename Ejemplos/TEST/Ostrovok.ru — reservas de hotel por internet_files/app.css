@@ -1,2075 +1,518 @@
 @font-face {
-    font-family: 'Open Sans';
-    src: url(//st.worldota.net/master/ea4cbe5-2464cde/fonts/opensans/opensans-regular.woff2) format("woff2"), url(//st.worldota.net/master/ea4cbe5-2464cde/fonts/opensans/opensans-regular.woff) format("woff");
-    font-weight: 400;
-    font-style: normal
+	font-family: 'Open Sans';
+	src: url(//st.worldota.net/master/ea4cbe5-2464cde/fonts/opensans/opensans-regular.woff2) format("woff2"), url(//st.worldota.net/master/ea4cbe5-2464cde/fonts/opensans/opensans-regular.woff) format("woff");
+	font-weight: 400;
+	font-style: normal
 }
 
 @font-face {
-    font-family: 'Open Sans';
-    src: url(//st.worldota.net/master/ea4cbe5-2464cde/fonts/opensans/opensans-semibold.woff2) format("woff2"), url(//st.worldota.net/master/ea4cbe5-2464cde/fonts/opensans/opensans-semibold.woff) format("woff");
-    font-weight: 600;
-    font-style: normal
+	font-family: 'Open Sans';
+	src: url(//st.worldota.net/master/ea4cbe5-2464cde/fonts/opensans/opensans-semibold.woff2) format("woff2"), url(//st.worldota.net/master/ea4cbe5-2464cde/fonts/opensans/opensans-semibold.woff) format("woff");
+	font-weight: 600;
+	font-style: normal
 }
+
+
+/* fuentes de session */
 
 @font-face {
-    font-family: 'Open Sans';
-    src: url(//st.worldota.net/master/ea4cbe5-2464cde/fonts/opensans/opensans-bold.woff2) format("woff2"), url(//st.worldota.net/master/ea4cbe5-2464cde/fonts/opensans/opensans-bold.woff) format("woff");
-    font-weight: 700;
-    font-style: normal
-}
-
-@font-face {
-    font-family: 'Open Sans';
-    src: url(//st.worldota.net/master/ea4cbe5-2464cde/fonts/opensans/opensans-lightitalic.woff2) format("woff2"), url(//st.worldota.net/master/ea4cbe5-2464cde/fonts/opensans/opensans-lightitalic.woff) format("woff");
-    font-weight: 300;
-    font-style: italic
-}
-
-@font-face {
-    font-family: 'Open Sans';
-    src: url(//st.worldota.net/master/ea4cbe5-2464cde/fonts/opensans/opensans-italic.woff2) format("woff2"), url(//st.worldota.net/master/ea4cbe5-2464cde/fonts/opensans/opensans-italic.woff) format("woff");
-    font-weight: 400;
-    font-style: italic
-}
-
-@font-face {
-    font-family: 'Open Sans';
-    src: url(//st.worldota.net/master/ea4cbe5-2464cde/fonts/opensans/opensans-semibolditalic.woff2) format("woff2"), url(//st.worldota.net/master/ea4cbe5-2464cde/fonts/opensans/opensans-semibolditalic.woff) format("woff");
-    font-weight: 600;
-    font-style: italic
-}
-
-@font-face {
-    font-family: 'Open Sans';
-    src: url(//st.worldota.net/master/ea4cbe5-2464cde/fonts/opensans/opensans-bolditalic.woff2) format("woff2"), url(//st.worldota.net/master/ea4cbe5-2464cde/fonts/opensans/opensans-bolditalic.woff) format("woff");
-    font-weight: 700;
-    font-style: italic
-}
-
-@font-face {
-    font-family: 'Ostrovok-Icons';
-    src: url(//st.worldota.net/master/ea4cbe5-2464cde/fonts/icons/icons.eot);
-    src: url(//st.worldota.net/master/ea4cbe5-2464cde/fonts/icons/icons.eot#iefix) format("embedded-opentype"), url(//st.worldota.net/master/ea4cbe5-2464cde/fonts/icons/icons.ttf) format("truetype"), url(//st.worldota.net/master/ea4cbe5-2464cde/fonts/icons/icons.svg#icomoon) format("svg");
-    font-weight: normal;
-    font-style: normal
-}
-
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
-    @font-face {
-        font-family: 'Ostrovok-Icons';
-        src: url(//st.worldota.net/master/ea4cbe5-2464cde/fonts/icons/icons.svg#icomoon) format("svg");
-        font-weight: normal;
-        font-style: normal
-    }
-}
-@font-face {
-    font-family: 'Ostrovok-Icons';
-    src: url(//st.worldota.net/master/ea4cbe5-2464cde/fonts/icons/icons.eot);
-    src: url(//st.worldota.net/master/ea4cbe5-2464cde/fonts/icons/icons.eot#iefix) format("embedded-opentype"), url(//st.worldota.net/master/ea4cbe5-2464cde/fonts/icons/icons.ttf) format("truetype"), url(//st.worldota.net/master/ea4cbe5-2464cde/fonts/icons/icons.svg#icomoon) format("svg");
-    font-weight: normal;
-    font-style: normal
-}
-
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
-    @font-face {
-        font-family: 'Ostrovok-Icons';
-        src: url(//st.worldota.net/master/ea4cbe5-2464cde/fonts/icons/icons.svg#icomoon) format("svg");
-        font-weight: normal;
-        font-style: normal
-    }
+	font-family: 'Open Sans';
+	src: url(//st.worldota.net/master/ea4cbe5-2464cde/fonts/opensans/opensans-bold.woff2) format("woff2"), url(//st.worldota.net/master/ea4cbe5-2464cde/fonts/opensans/opensans-bold.woff) format("woff");
+	font-weight: 700;
+	font-style: normal
 }
 
 
-@font-face {
-    font-family: 'Ostrovok-Icons';
-    src: url(//st.worldota.net/master/ea4cbe5-2464cde/fonts/icons/icons.eot);
-    src: url(//st.worldota.net/master/ea4cbe5-2464cde/fonts/icons/icons.eot#iefix) format("embedded-opentype"), url(//st.worldota.net/master/ea4cbe5-2464cde/fonts/icons/icons.ttf) format("truetype"), url(//st.worldota.net/master/ea4cbe5-2464cde/fonts/icons/icons.svg#icomoon) format("svg");
-    font-weight: normal;
-    font-style: normal
-}
-
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
-    @font-face {
-        font-family: 'Ostrovok-Icons';
-        src: url(//st.worldota.net/master/ea4cbe5-2464cde/fonts/icons/icons.svg#icomoon) format("svg");
-        font-weight: normal;
-        font-style: normal
-    }
-}
+/* fuentes de session */
 
 
-
-
-
-
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
-    @font-face {
-        font-family: 'Ostrovok-Icons';
-        src: url(//st.worldota.net/master/ea4cbe5-2464cde/fonts/icons/icons.svg#icomoon) format("svg");
-        font-weight: normal;
-        font-style: normal
-    }
-}
-
-
-
-
-@font-face {
-    font-family: 'Ostrovok-Icons';
-    src: url(//st.worldota.net/master/ea4cbe5-2464cde/fonts/icons/icons.eot);
-    src: url(//st.worldota.net/master/ea4cbe5-2464cde/fonts/icons/icons.eot#iefix) format("embedded-opentype"), url(//st.worldota.net/master/ea4cbe5-2464cde/fonts/icons/icons.ttf) format("truetype"), url(//st.worldota.net/master/ea4cbe5-2464cde/fonts/icons/icons.svg#icomoon) format("svg");
-    font-weight: normal;
-    font-style: normal
-}
-
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
-    @font-face {
-        font-family: 'Ostrovok-Icons';
-        src: url(//st.worldota.net/master/ea4cbe5-2464cde/fonts/icons/icons.svg#icomoon) format("svg");
-        font-weight: normal;
-        font-style: normal
-    }
-}
-
-
-
-@font-face {
-    font-family: 'Ostrovok-Icons';
-    src: url(//st.worldota.net/master/ea4cbe5-2464cde/fonts/icons/icons.eot);
-    src: url(//st.worldota.net/master/ea4cbe5-2464cde/fonts/icons/icons.eot#iefix) format("embedded-opentype"), url(//st.worldota.net/master/ea4cbe5-2464cde/fonts/icons/icons.ttf) format("truetype"), url(//st.worldota.net/master/ea4cbe5-2464cde/fonts/icons/icons.svg#icomoon) format("svg");
-    font-weight: normal;
-    font-style: normal
-}
-
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
-    @font-face {
-        font-family: 'Ostrovok-Icons';
-        src: url(//st.worldota.net/master/ea4cbe5-2464cde/fonts/icons/icons.svg#icomoon) format("svg");
-        font-weight: normal;
-        font-style: normal
-    }
-}
-
-
-
+/* Boton Iniciar Session*/
 
 .button {
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
-    border-radius: 3px;
-    border: 1px solid;
-    cursor: pointer;
-    display: inline-block;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 28px;
-    outline: none;
-    padding: 0 12px;
-    position: relative;
-    text-decoration: none;
-    text-transform: uppercase;
-    white-space: nowrap
-}
-
-.button:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0
-}
-
-.button:active {
-    line-height: 26px;
-    padding-top: 2px
-}
-
-.button-blue {
-    border-color: #767676;
-    border-bottom-color: #4e4e4e;
-    border-top-color: #8a8a8a;
-    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.16), inset 0 3px 0 -2px rgba(255, 255, 255, 0.7), inset 0 0 0 1px rgba(255, 255, 255, 0.4);
-    color: #fff;
-    text-shadow: 0 1px rgba(0, 0, 0, 0.31);
-    background-image: -webkit-linear-gradient(top, #1c77e1, #0158be);
-    background-image: -moz-linear-gradient(top, #1c77e1, #0158be);
-    background-image: -o-linear-gradient(top, #1c77e1, #0158be);
-    background-image: linear-gradient(to bottom, #1c77e1, #0158be)
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+	border-radius: 3px;
+	border: 1px solid;
+	cursor: pointer;
+	display: inline-block;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 28px;
+	outline: none;
+	padding: 0 12px;
+	position: relative;
+	text-decoration: none;
+	text-transform: uppercase;
+	white-space: nowrap
 }
 
 
-.button-blue:active {
-    border-color: #d1d1d1;
-    border-top-color: #aaa;
-    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.4), inset 0 1px 5px 1px rgba(0, 0, 0, 0.5);
-    background-image: -webkit-linear-gradient(top, #1158c9, #0041aa);
-    background-image: -moz-linear-gradient(top, #1158c9, #0041aa);
-    background-image: -o-linear-gradient(top, #1158c9, #0041aa);
-    background-image: linear-gradient(to bottom, #1158c9, #0041aa)
-}
-
-.button-orange {
-    border-color: #d79d50;
-    border-bottom-color: #b7711a;
-    border-top-color: #e7b46b;
-    box-shadow: 0 1px 0 rgba(104, 44, 0, 0.25), inset 0 3px 0 -2px #fff, inset 0 0 0 1px rgba(255, 222, 0, 0.53);
-    color: #5f1d00;
-    text-shadow: 0 1px rgba(255, 255, 255, 0.6);
-    background-image: -webkit-linear-gradient(top, #ffc900, #f28d00);
-    background-image: -moz-linear-gradient(top, #ffc900, #f28d00);
-    background-image: -o-linear-gradient(top, #ffc900, #f28d00);
-    background-image: linear-gradient(to bottom, #ffc900, #f28d00)
-}
-
-.button-orange:hover {
-    box-shadow: 0 1px 0 rgba(53, 22, 0, 0.25), inset 0 3px 0 -2px #fff, inset 0 0 0 1px rgba(255, 222, 0, 0.53);
-    background-image: -webkit-linear-gradient(top, #ffca00, #f8aa00);
-    background-image: -moz-linear-gradient(top, #ffca00, #f8aa00);
-    background-image: -o-linear-gradient(top, #ffca00, #f8aa00);
-    background-image: linear-gradient(to bottom, #ffca00, #f8aa00)
-}
-
-.button-orange:active {
-    border-color: #9d5300;
-    border-top-color: #742f00;
-    box-shadow: inset 0 3px 0 -2px rgba(95, 29, 0, 0.26);
-    background-image: -webkit-linear-gradient(top, #f59900, #de6400);
-    background-image: -moz-linear-gradient(top, #f59900, #de6400);
-    background-image: -o-linear-gradient(top, #f59900, #de6400);
-    background-image: linear-gradient(to bottom, #f59900, #de6400)
-}
+/* Boton Iniciar Session*/
 
 
-.button-light:active {
-    box-shadow: inset 0 2px 3px -1px rgba(4, 36, 63, 0.12), inset 0 -1px 0 rgba(255, 255, 255, 0.5);
-    line-height: 42px;
-    padding-top: 0
-}
-
-.button-light-blue {
-    border: 1px solid #93a8b4;
-    border-radius: 2px;
-    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.76);
-    color: #315c7d;
-    font-size: 10px;
-    font-weight: normal;
-    line-height: 21px;
-    padding: 0 12px;
-    text-shadow: 0 1px rgba(255, 255, 255, 0.5);
-    background-image: -webkit-linear-gradient(top, #edf2f5, #d8e6ed);
-    background-image: -moz-linear-gradient(top, #edf2f5, #d8e6ed);
-    background-image: -o-linear-gradient(top, #edf2f5, #d8e6ed);
-    background-image: linear-gradient(to bottom, #edf2f5, #d8e6ed)
-}
-
-.button-light-blue:active {
-    line-height: 21px;
-    padding-top: 0
-}
-
-.button-flat-blue {
-    background: #0077d3;
-    background-image: -webkit-linear-gradient(top, #007bda, #0073cc);
-    background-image: -moz-linear-gradient(top, #007bda, #0073cc);
-    background-image: -o-linear-gradient(top, #007bda, #0073cc);
-    background-image: linear-gradient(to bottom, #007bda, #0073cc);
-    border-radius: 3px;
-    color: #fff;
-    font-size: 10px;
-    font-weight: normal;
-    font-weight: normal;
-    line-height: 21px;
-    outline: none;
-    padding: 0 12px;
-    text-transform: uppercase
-}
-
-.button-flat-blue:active {
-    line-height: inherit;
-    padding-top: inherit
-}
-
-.button-flat-blue:disabled,
-.button-flat-blue[disabled],
-.button-flat-blue.button-disabled {
-    background: #8ea3b4;
-    cursor: default;
-    opacity: inherit
-}
+/* Color Azul en boton iniciar session */
 
 .button-dark-blue {
-    border-color: #0c4173;
-    border-radius: 2px;
-    box-shadow: inset 0 0 1px rgba(190, 245, 255, 0.15), inset 0 1px rgba(255, 255, 255, 0.25), 0 1px 3px rgba(0, 38, 74, 0.17);
-    color: #fff;
-    font-size: 12px;
-    height: 30px;
-    line-height: 30px;
-    padding: 0 38px;
-    text-shadow: 0 -1px #0e4270;
-    background-image: -webkit-linear-gradient(top, #257bb6, #1c5d9e);
-    background-image: -moz-linear-gradient(top, #257bb6, #1c5d9e);
-    background-image: -o-linear-gradient(top, #257bb6, #1c5d9e);
-    background-image: linear-gradient(to bottom, #257bb6, #1c5d9e)
+	border-color: #0c4173;
+	border-radius: 2px;
+	box-shadow: inset 0 0 1px rgba(190, 245, 255, 0.15), inset 0 1px rgba(255, 255, 255, 0.25), 0 1px 3px rgba(0, 38, 74, 0.17);
+	color: #fff;
+	font-size: 12px;
+	height: 30px;
+	line-height: 30px;
+	padding: 0 38px;
+	text-shadow: 0 -1px #0e4270;
+	background-image: -webkit-linear-gradient(top, #257bb6, #1c5d9e);
+	background-image: -moz-linear-gradient(top, #257bb6, #1c5d9e);
+	background-image: -o-linear-gradient(top, #257bb6, #1c5d9e);
+	background-image: linear-gradient(to bottom, #257bb6, #1c5d9e)
 }
+
+
+/* Color Azul en boton iniciar session */
+
+
+/* Cambia a celeste cuando pones el mouse sobre el boton */
 
 .button-dark-blue:hover {
-    background-image: -webkit-linear-gradient(top, #3592cb, #286fba);
-    background-image: -moz-linear-gradient(top, #3592cb, #286fba);
-    background-image: -o-linear-gradient(top, #3592cb, #286fba);
-    background-image: linear-gradient(to bottom, #3592cb, #286fba)
-}
-
-.button-dark-blue:disabled {
-    background-image: -webkit-linear-gradient(top, #257bb6, #1c5d9e);
-    background-image: -moz-linear-gradient(top, #257bb6, #1c5d9e);
-    background-image: -o-linear-gradient(top, #257bb6, #1c5d9e);
-    background-image: linear-gradient(to bottom, #257bb6, #1c5d9e)
-}
-
-.button-dark-blue:active {
-    box-shadow: inset 0 0 1px rgba(190, 245, 255, 0.15), inset 0 1px 1px #003770, 0 2px 0 -1px rgba(255, 255, 255, 0.8);
-    line-height: 30px;
-    background-image: -webkit-linear-gradient(top, #1a5997, #2276b1);
-    background-image: -moz-linear-gradient(top, #1a5997, #2276b1);
-    background-image: -o-linear-gradient(top, #1a5997, #2276b1);
-    background-image: linear-gradient(to bottom, #1a5997, #2276b1)
-}
-
-.button-middle {
-    font-size: 15px;
-    height: 40px;
-    line-height: 39px
-}
-
-.button-middle:active {
-    line-height: 38px
-}
-
-.button-middle.button-orange {
-    border-color: #2d3841;
-    border-bottom-color: #1f262d;
-    border-top-color: #364450;
-    box-shadow: 0 1px 0 rgba(104, 44, 0, 0.25), inset 0 3px 0 -2px #fff, inset 0 0 0 1px rgba(255, 222, 0, 0.53), 0 0 0 3px rgba(245, 151, 0, 0.35);
-    font-size: 16px
-}
-
-.button-middle.button-orange:hover {
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.35), inset 0 3px 0 -2px #fff, inset 0 0 0 1px rgba(255, 222, 0, 0.53), 0 0 0 4px rgba(255, 108, 0, 0.24)
-}
-
-.button-middle.button-orange:active {
-    border-bottom-color: #9b9ba1;
-    box-shadow: 0 0 0 4px rgba(255, 108, 0, 0.24), inset 0 2px 4px rgba(73, 14, 0, 0.5)
-}
-
-@font-face {
-    font-family: 'Ostrovok-Icons';
-    src: url(//st.worldota.net/master/ea4cbe5-2464cde/fonts/icons/icons.eot);
-    src: url(//st.worldota.net/master/ea4cbe5-2464cde/fonts/icons/icons.eot#iefix) format("embedded-opentype"), url(//st.worldota.net/master/ea4cbe5-2464cde/fonts/icons/icons.ttf) format("truetype"), url(//st.worldota.net/master/ea4cbe5-2464cde/fonts/icons/icons.svg#icomoon) format("svg");
-    font-weight: normal;
-    font-style: normal
-}
-
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
-    @font-face {
-        font-family: 'Ostrovok-Icons';
-        src: url(//st.worldota.net/master/ea4cbe5-2464cde/fonts/icons/icons.svg#icomoon) format("svg");
-        font-weight: normal;
-        font-style: normal
-    }
+	background-image: -webkit-linear-gradient(top, #3592cb, #286fba);
+	background-image: -moz-linear-gradient(top, #3592cb, #286fba);
+	background-image: -o-linear-gradient(top, #3592cb, #286fba);
+	background-image: linear-gradient(to bottom, #3592cb, #286fba)
 }
 
 
+/* Cambia a celeste cuando pones el mouse sobre el boton */
 
 
-
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
-    @font-face {
-        font-family: 'Ostrovok-Icons';
-        src: url(//st.worldota.net/master/ea4cbe5-2464cde/fonts/icons/icons.svg#icomoon) format("svg");
-        font-weight: normal;
-        font-style: normal
-    }
-}
-
-
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
-    @font-face {
-        font-family: 'Ostrovok-Icons';
-        src: url(//st.worldota.net/master/ea4cbe5-2464cde/fonts/icons/icons.svg#icomoon) format("svg");
-        font-weight: normal;
-        font-style: normal
-    }
-}
-
-
-
-.toggle-filters {
-    border-bottom: 1px dotted #aeb0b2;
-    color: #989898;
-    cursor: pointer;
-    display: inline-block;
-    font-weight: 400;
-    font-size: 20px;
-    margin: 2px 0 20px;
-    position: relative;
-    text-shadow: 0 1px white
-}
-
-.toggle-filters:after {
-    content: '';
-    display: block;
-    height: 6px;
-    position: absolute;
-    right: -17px;
-    top: 14px;
-    width: 11px;
-    background: url(//st.worldota.net/master/ea4cbe5-2464cde/img/sprites/serp/filters-toggle-arrow-down.png) no-repeat 50% 50%;
-    height: 6px;
-    width: 11px
-}
-
-.toggle-filters-back:after {
-    background: url(//st.worldota.net/master/ea4cbe5-2464cde/img/sprites/serp/filters-toggle-arrow-up.png) no-repeat 50% 50%;
-    height: 6px;
-    width: 11px
-}
-
-.toggle-filters-part {
-    border-bottom: 1px dotted #88bee4;
-    color: #0074c5;
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    top: -5px
-}
-.header-select:hover {
-    box-shadow: none
-}
-
-.header-select:active {
-    background: #0f5d9f;
-    box-shadow: inset 0 1px rgba(0, 0, 0, 0.1)
-}
-
-.body-mobile .header-select {
-    background: rgba(255, 255, 255, 0.3)
-}
-
-.body-mobile .header-select:active {
-    background: rgba(255, 255, 255, 0.4)
-}
-
-.header-select-arrow {
-    position: absolute;
-    right: 10px;
-    top: 11px
-}
-
-.header-account-open,
-.language-select-open,
-.currency-select-open {
-    background: #e8ebee;
-    border-radius: 2px 2px 0 0
-}
-
-.header-account-open .header-select-value,
-.language-select-open .header-select-value,
-.currency-select-open .header-select-value {
-    color: #565d61
-}
-
-.header-account-open .header-select-arrowpath,
-.language-select-open .header-select-arrowpath,
-.currency-select-open .header-select-arrowpath {
-    fill: #565d61
-}
-
-.header-account-open:before,
-.language-select-open:before,
-.currency-select-open:before {
-    background: #d6d8db
-}
-
-.header-account-open:after,
-.language-select-open:after,
-.currency-select-open:after {
-    border-top-color: #a0a1a3
-}
-
-.header-account-open:active .header-select-value,
-.language-select-open:active .header-select-value,
-.currency-select-open:active .header-select-value {
-    color: white
-}
-
-.header-account-open:active .header-select-arrowpath,
-.language-select-open:active .header-select-arrowpath,
-.currency-select-open:active .header-select-arrowpath {
-    fill: white
-}
+/* tamaño del header */
 
 .header-select-value,
 .header-select-list {
-    font-weight: bold;
-    font-size: 12px;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale
+	font-weight: bold;
+	font-size: 12px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale
 }
 
-.header-select-value {
-    color: #fff;
-    line-height: 13px
-}
+
+/* tamaño del header */
+
+
+/* cuadro con sombra para autenticacion */
 
 .header-select-list {
-    background: #e8ebee;
-    border-radius: 0 2px 2px 2px;
-    box-shadow: 0 2px 6px -2px rgba(42, 67, 84, 0.6);
-    overflow: hidden;
-    position: absolute;
-    top: 0;
-    z-index: 20
+	background: #e8ebee;
+	border-radius: 0 2px 2px 2px;
+	box-shadow: 0 2px 6px -2px rgba(42, 67, 84, 0.6);
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	z-index: 20
 }
 
-.header-select-list-title {
-    background: #e8ebee;
-    color: #333;
-    -webkit-font-smoothing: auto;
-    line-height: 21px;
-    padding-left: 10px;
-    text-transform: uppercase
-}
-
-.header-select-list-clip {
-    overflow-x: hidden;
-    overflow-y: auto
-}
-
-.header-select-option {
-    color: #565d61;
-    cursor: pointer;
-    font-size: 11px;
-    font-weight: 600;
-    height: 19px;
-    line-height: 18px;
-    padding: 0 9px;
-    white-space: nowrap
-}
-
-.header-select-option:hover,
-.header-select-option.goog-option-selected,
-.header-select-option.currency-select-option-highlight,
-.header-select-option.language-select-option-highlight {
-    background: #0074c5;
-    color: #fff
-}
-
-.header-select-option:last-child {
-    border-radius: 0 0 2px 2px;
-    padding-bottom: 4px
-}
-
-.header-select-option-code,
-.header-select-option-name {
-    display: inline-block
-}
-
-.header-select-option-code {
-    font-weight: 700
-}
-
-.header-select-option-delimeter {
-    border: 0;
-    border-bottom: 1px solid #c9d1d6;
-    font-size: 0;
-    height: 0
-}
-
-
-.highpixelratio .hotelsearchinfo-app-link-ios,
-.highpixelratio .hotelsearchinfo-app-link-android {
-    background-position: 0
-}
-
-.highpixelratio .hotelsearchinfo-app-link-ios {
-    background-image: url(//st.worldota.net/master/ea4cbe5-2464cde/img/sprites/homepage/appstore-highres.png);
-    background-size: 107px 30px
-}
-
-
-
-
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
-    @font-face {
-        font-family: 'Ostrovok-Icons';
-        src: url(//st.worldota.net/master/ea4cbe5-2464cde/fonts/icons/icons.svg#icomoon) format("svg");
-        font-weight: normal;
-        font-style: normal
-    }
-}
-
-
-
-@-moz-document url-prefix() {
-    .hotel-amenities-item-title:before {
-        line-height: 19px;
-        text-indent: 1px
-    }
-    .hotel-amenities-has_tours .hotel-amenities-item-title:before {
-        line-height: 20px
-    }
-}
-
-
-
-
-.ie8.hotel-gallery-isfullscreen .hotel-gallery-imagecontainer,
-.hotel-gallery-noblurimage.hotel-gallery-isfullscreen .hotel-gallery-imagecontainer {
-    background-color: transparent
-}
-
-.ie8 .hotel-gallery-next,
-.ie8 .hotel-gallery-prev {
-    display: none
-}
-
-.ie8 .hotel-gallerythumbnails-wrapper {
-    width: 210px
-}
-
-.hotel-gallerythumbnails {
-    float: right;
-    height: 166px;
-    margin-bottom: 8px;
-    width: 208px
-}
-
-.hotel-gallerythumbnails-wrapper {
-    background-color: rgba(245, 245, 247, 0.5);
-    height: 166px;
-    overflow: hidden;
-    position: absolute;
-    transition: height .2s ease;
-    z-index: 2
-}
-
-.hotel-gallerythumbnails-big.hotel-gallerythumbnails-expanded .hotel-gallerythumbnails-wrapper,
-.hotel-gallerythumbnails-big .hotel-gallerythumbnails-wrapper:hover {
-    height: 418px
-}
-
-.mobile .hotel-gallerythumbnails-big.hotel-gallerythumbnails-expanded .hotel-gallerythumbnails-wrapper,
-.mobile .hotel-gallerythumbnails-big .hotel-gallerythumbnails-wrapper:hover {
-    height: 208px
-}
-
-.hotel-gallerythumbnail {
-    background-color: white;
-    cursor: pointer;
-    float: left;
-    height: 40px;
-    padding: 0 2px 2px 0
-}
-
-.hotel-gallerythumbnail:before {
-    border: 3px solid #f11313;
-    content: '';
-    display: block;
-    height: 34px;
-    opacity: 0;
-    position: absolute;
-    transition: opacity .3s ease;
-    width: 34px
-}
-
-.hotel-gallerythumbnail.hotel-gallerythumbnail-active:before {
-    opacity: 1
-}
-
-.hotel-gallerythumbnail.hotel-gallerythumbnail-onedge {
-    padding-right: 0
-}
-
-.hotel-gallerythumbnails-disabled .hotel-gallerythumbnail {
-    cursor: default
-}
-
-.hotel-gallerythumbnail-image {
-    height: 40px;
-    width: 40px
-}
-
-.jobscontent {
-    padding-top: 30px
-}
-
-.jobscontent:before,
-.jobscontent:after {
-    display: table;
-    content: ''
-}
-
-.jobscontent:after {
-    clear: both
-}
-
-.jobssidebar {
-    float: right;
-    width: 310px;
-    margin: 58px 0 0
-}
-
-.jobsoverview {
-    float: left;
-    padding: 0 30px 0 0;
-    width: 620px
-}
-
-.jobsoverview-title {
-    font-family: Helvetica, Arial, FreeSans, sans-serif;
-    color: #393f43;
-    font-size: 36px;
-    font-weight: 300;
-    line-height: 38px;
-    margin: 0 0 20px
-}
-
-.jobsoverview-description {
-    float: left;
-    padding: 0 30px 0 0;
-    width: 620px
-}
-
-.jobsoverview-p {
-    color: #535353;
-    font-size: 14px;
-    line-height: 20px;
-    margin: 0 0 20px
-}
-
-.jobsoverview-description p {
-    color: #535353;
-    font-size: 14px;
-    line-height: 20px;
-    margin: 0 0 20px
-}
-
-.jobsoverview-description h4,
-.jobsoverview-description h3 {
-    color: #0851a3;
-    font-size: 14px;
-    font-weight: normal;
-    line-height: 16px;
-    margin-bottom: 10px
-}
-
-.jobsoverview-description ul {
-    margin: 0 0 35px;
-    list-style: none
-}
-
-.jobsoverview-description li {
-    color: #393434;
-    font-size: 14px;
-    line-height: 18px;
-    margin: 0 0 8px 10px
-}
-
-.jobsoverview-description li:before {
-    color: #2a5894;
-    content: '\2022';
-    margin-left: -10px;
-    position: absolute
-}
-
-.jobsoverview-toolbar {
-    background: #e3e3e3;
-    border-radius: 6px;
-    box-shadow: 0 1px 1px #999 inset;
-    margin: 0 0 25px;
-    padding: 7px
-}
-
-.jobsoverview-toolbar .jobsoverview-share-list {
-    float: right;
-    margin: 7px 7px 0 0
-}
-
-.jobsoverview-toolbar .jobsoverview-share-item {
-    float: right;
-    margin: 0 0 0 15px;
-    padding: 0;
-    max-width: 140px
-}
-
-.jobsoverview-toolbar .jobsoverview-share-list .jobsoverview-share-item:before {
-    display: none
-}
-
-.jobsoverview-toolbar .jobsoverview-share-facebook .fb_iframe_widget {
-    background: none
-}
-
-.jobsoverview-share-vkontakte {
-    width: 140px
-}
-
-.jobsoverview-share-twitter {
-    width: 75px
-}
-
-.jobsoverview-share-facebook {
-    width: 106px
-}
-
-.jobsoverview-goback-link {
-    background: rgba(152, 176, 190, 0.25);
-    border-radius: 4px;
-    box-shadow: none;
-    padding: 3px;
-    text-shadow: 0 1px 0 #fff;
-    text-decoration: none;
-    text-transform: uppercase
-}
-
-.jobsoverview-goback-link-inner {
-    display: inline-block;
-    background-color: #c3d3dc;
-    background-image: -webkit-linear-gradient(top, #e5edf2, #c3d3dc);
-    background-image: -moz-linear-gradient(top, #e5edf2, #c3d3dc);
-    background-image: -o-linear-gradient(top, #e5edf2, #c3d3dc);
-    background-image: linear-gradient(to bottom, #e5edf2, #c3d3dc);
-    border: 1px solid rgba(0, 45, 71, 0.55);
-    border-radius: 2px;
-    box-shadow: 0 2px 2px rgba(255, 255, 255, 0.9) inset, 0 0 1px 1px rgba(255, 255, 255, 0.6) inset, 0 1px 1px rgba(0, 0, 0, 0.2);
-    color: #3e6e93;
-    font-size: 10px;
-    font-weight: normal;
-    height: 25px;
-    line-height: 27px;
-    padding: 0 15px
-}
-
-.jobsoverview-gallery {
-    background: #fff;
-    display: inline-block;
-    margin-bottom: 25px;
-    padding: 10px
-}
-
-.jobsoverview-gallery-inner {
-    position: relative;
-    width: 600px;
-    margin: 0
-}
-
-.jobsoverview-gallery-list {
-    width: 600px;
-    height: 400px;
-    overflow: hidden;
-    position: relative
-}
-
-.jobsoverview .jobsoverview-gallery-list {
-    margin: 0
-}
-
-.jobsoverview-gallery-item {
-    background: #000;
-    overflow: hidden;
-    position: absolute;
-    right: 0;
-    top: 0;
-    opacity: 0;
-    -webkit-transition: ease opacity 0.5s;
-    -moz-transition: ease opacity 0.5s;
-    -o-transition: ease opacity 0.5s;
-    transition: ease opacity 0.5s
-}
-
-.jobsoverview-gallery-item-selected {
-    opacity: 1
-}
-
-.jobsoverview-gallery-pic {
-    cursor: pointer;
-    display: block;
-    height: 400px;
-    width: 600px
-}
-
-.jobsoverview-gallery-pic:before {
-    display: none
-}
-
-.jobsoverview-gallery-left,
-.jobsoverview-gallery-top,
-.jobsoverview-gallery-right,
-.jobsoverview-gallery-bottom {
-    background: #000;
-    display: block;
-    height: 4px;
-    opacity: 0.2;
-    position: absolute;
-    width: 4px
-}
-
-.jobsoverview-gallery-left {
-    bottom: 4px;
-    height: 100%;
-    left: 0
-}
-
-.jobsoverview-gallery-top {
-    left: 4px;
-    top: 0;
-    width: 100%
-}
-
-.jobsoverview-gallery-right {
-    height: 100%;
-    right: 0;
-    top: 4px
-}
-
-.jobsoverview-gallery-bottom {
-    bottom: 0;
-    right: 4px;
-    width: 100%
-}
-
-.jobsoverview-gallery-prev,
-.jobsoverview-gallery-next {
-    background: url(//st.worldota.net/master/ea4cbe5-2464cde/img/photos_nav.png) no-repeat 0 0;
-    bottom: -15px;
-    display: block;
-    height: 31px;
-    outline: 0 none;
-    overflow: hidden;
-    position: absolute;
-    right: 270px;
-    text-indent: -2000px;
-    width: 31px;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none
-}
-
-.jobsoverview-gallery-prev {
-    right: 301px
-}
-
-.jobsoverview-gallery-next {
-    background-position: 100% 0
-}
-
-.jobsannounce {
-    background: #fff;
-    border-radius: 3px;
-    box-shadow: 0 3px 5px -5px #000;
-    margin: 0 0 30px;
-    padding: 20px
-}
-
-.jobsannounce-content {
-    margin: 0 0 12px;
-    font-size: 23px;
-    line-height: 28px;
-    color: #0851a3;
-    font-weight: normal;
-    text-shadow: 0 1px 0 #fff
-}
-
-.jobsannounce-link {
-    display: block;
-    color: #0851a3
-}
-
-.jobsmenu {
-    background: #fff;
-    border-radius: 3px;
-    box-shadow: 0 3px 5px -5px #000;
-    margin: 0 0 30px;
-    padding: 20px
-}
-
-.jobsmenu-title {
-    margin: 0 0 12px;
-    font-size: 20px;
-    line-height: 23px;
-    color: #0851a3;
-    font-weight: normal;
-    text-shadow: 0 1px 0 #fff
-}
-
-.jobsmenu-item {
-    list-style: none
-}
-
-.jobsmenu-link {
-    display: block;
-    font-size: 16px;
-    padding: 8px 0 8px 42px;
-    position: relative;
-    text-decoration: none;
-    color: #0851a3
-}
-
-.jobsmenu-link.jobsmenu-link-active,
-.jobsmenu-link:hover {
-    background-color: #357ccb;
-    border-radius: 3px;
-    color: #fff
-}
-
-.jobsmenu-icon {
-    display: inline-block;
-    left: 12px;
-    position: absolute;
-    top: 10px;
-    vertical-align: top;
-    background: url(//st.worldota.net/master/ea4cbe5-2464cde/img/jobs/blogger.png) no-repeat 50% 50%;
-    height: 15px;
-    width: 16px
-}
-
-.jobsmenu-icon_blogger {
-    background: url(//st.worldota.net/master/ea4cbe5-2464cde/img/jobs/blogger.png) no-repeat 50% 50%;
-    height: 15px;
-    width: 16px
-}
-
-.jobsmenu-icon_product_owner {
-    background: url(//st.worldota.net/master/ea4cbe5-2464cde/img/jobs/analytics.png) no-repeat 50% 50%;
-    height: 15px;
-    width: 16px
-}
-
-.jobsmenu-icon_designer {
-    background: url(//st.worldota.net/master/ea4cbe5-2464cde/img/jobs/designer.png) no-repeat 50% 50%;
-    height: 17px;
-    width: 16px
-}
-
-.jobsmenu-icon_razrabotchik_pod_Android,
-.jobsmenu-icon_razrabotchik_pod_iOS {
-    background: url(//st.worldota.net/master/ea4cbe5-2464cde/img/jobs/ios.png) no-repeat 50% 50%;
-    height: 18px;
-    width: 16px
-}
-
-.jobsmenu-icon_dev_frontend,
-.jobsmenu-icon_dev_markup,
-.jobsmenu-icon_Linux_administrator,
-.jobsmenu-icon_sistemnyih_administratorov_Help_Desk {
-    background: url(//st.worldota.net/master/ea4cbe5-2464cde/img/jobs/markup.png) no-repeat 50% 50%;
-    height: 13px;
-    width: 19px
-}
-
-.jobsmenu-icon_product_owner {
-    background: url(//st.worldota.net/master/ea4cbe5-2464cde/img/jobs/partners.png) no-repeat 50% 50%;
-    height: 17px;
-    width: 6px
-}
-
-.jobsmenu-icon_QA-spetsialist {
-    background: url(//st.worldota.net/master/ea4cbe5-2464cde/img/jobs/qa.png) no-repeat 50% 50%;
-    height: 17px;
-    width: 17px
-}
-
-.jobsform {
-    color: #393434;
-    background: #fff;
-    border-radius: 3px;
-    box-shadow: 0 3px 5px -5px #000;
-    margin: 0 0 30px;
-    padding: 20px;
-    position: relative
-}
 
-.jobsform-title {
-    margin: 0 0 12px;
-    font-size: 20px;
-    line-height: 23px;
-    color: #0851a3;
-    font-weight: normal;
-    text-shadow: 0 1px 0 #fff
-}
-
-.jobsform-row {
-    margin: 0 0 10px
-}
-
-.jobsform-p {
-    color: #727a7f;
-    font-size: 12px;
-    line-height: 14px;
-    margin: 0 0 15px
-}
-
-.jobsform-label {
-    cursor: default;
-    display: block;
-    margin: 0 0 10px
-}
-
-.jobsform-input {
-    border: 1px solid #C4C4C4;
-    border-radius: 0;
-    box-shadow: 0 1px 3px #c4c4c4 inset;
-    font-size: 1em;
-    height: 30px;
-    line-height: 30px;
-    padding: 0 9px;
-    width: 251px
-}
-
-.jobsform-cv-file-wrapper {
-    display: block;
-    position: relative
-}
-
-.jobsform-cv-file-input {
-    cursor: pointer;
-    opacity: 0;
-    position: relative;
-    z-index: 2
-}
-
-.jobsform-cv-file-fake {
-    left: 0;
-    position: absolute;
-    top: 0;
-    z-index: 1
-}
-
-.jobsform-cv-file-name {
-    color: #727a7f;
-    left: 120px;
-    line-height: 25px;
-    overflow: hidden;
-    position: absolute;
-    top: 0;
-    white-space: nowrap;
-    width: 148px;
-    z-index: 1
-}
-
-.jobsform-cv-file-name:after {
-    background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 0), #fff);
-    background-image: -moz-linear-gradient(left, rgba(255, 255, 255, 0), #fff);
-    background-image: -o-linear-gradient(left, rgba(255, 255, 255, 0), #fff);
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), #fff);
-    content: "";
-    height: 25px;
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 25px
-}
-
-.ie8 .jobsform-cv-file-wrapper,
-.ie9 .jobsform-cv-file-wrapper {
-    cursor: default
-}
-
-.ie8 .jobsform-cv-file-input {
-    opacity: 1;
-    height: 30px
-}
-
-.ie8 .jobsform-cv-file-fake {
-    display: none
-}
-
-.jobsform-submit-wrapper {
-    padding: 18px 0 0;
-    text-align: center;
-    margin: 0 0 10px
-}
-
-.jobsform-submit {
-    font-size: 16px
-}
-
-.jobsform-progress-wrapper {
-    background: #e5e5e5;
-    height: 1px;
-    margin-top: 15px;
-    overflow: hidden;
-    position: relative;
-    width: 100%
-}
-
-.jobsform-progress {
-    background: #0e62bd;
-    height: 1px;
-    left: -100%;
-    position: absolute;
-    top: 0;
-    width: 100%
-}
-
-.jobsform-select-wrapper {
-    margin: 0 0 10px
-}
-
-.jobsform-dropdown-real {
-    display: none
-}
-
-.jobsform-dropdown .goog-flat-menu-button {
-    outline: none
-}
-
-.jobsform-dropdown .goog-flat-menu-button-caption {
-    border-radius: 0 6px 6px 0;
-    border: 1px solid #c4c4c4;
-    box-shadow: 0 1px 3px #c4c4c4 inset;
-    display: block;
-    font-size: 1em;
-    height: 30px;
-    line-height: 30px;
-    overflow: hidden;
-    padding: 0 25px 0 9px;
-    position: relative;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    width: 235px;
-    z-index: 1
-}
-
-.jobsform-dropdown .goog-flat-menu-button-dropdown {
-    background-color: #f3f3f3;
-    border-left: 1px solid #c4c4c4;
-    border-radius: 0 6px 6px 0;
-    cursor: pointer;
-    height: 100%;
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 22px
-}
-
-.jobsform-dropdown .goog-flat-menu-button-dropdown:after,
-.jobsform-dropdown .goog-flat-menu-button-dropdown:before {
-    border: 4px solid #727a7f;
-    content: "";
-    position: absolute;
-    right: 7px
-}
-
-.jobsform-dropdown .goog-flat-menu-button-dropdown:after {
-    border-color: #f3f3f3 #f3f3f3 #727a7f;
-    top: 5px
-}
-
-.jobsform-dropdown .goog-flat-menu-button-dropdown:before {
-    border-color: #727a7f #f3f3f3 #f3f3f3;
-    bottom: 5px
-}
-
-.jobsform-select {
-    display: none
-}
-
-.goog-menu {
-    border: 1px solid #c4c4c4;
-    position: absolute;
-    z-index: 3
-}
-
-.jobsform-dropdownitem {
-    color: #393434;
-    cursor: pointer;
-    display: block;
-    line-height: 16px;
-    padding: 7px 9px;
-    text-decoration: none;
-    background-color: #fff;
-    width: 251px
-}
-
-.jobsform-dropdownitem:hover {
-    background-color: #357ccb;
-    color: #fff
-}
-
-.jobsform-warning,
-.jobsform-error,
-.jobsform-success,
-.jobsform-loading {
-    display: none
-}
-
-.jobsform-warning {
-    color: #0e62bd;
-    font-weight: bold;
-    margin-top: 15px
-}
-
-.jobsform-error {
-    color: #700;
-    font-weight: bold;
-    margin-top: 15px;
-    text-align: center
-}
-
-.jobsform-success-title {
-    color: #000;
-    font-size: 20px;
-    font-weight: normal;
-    padding-bottom: 5px
-}
-
-.jobsform-success-note {
-    color: #999;
-    font-size: 11px;
-    line-height: 14px;
-    margin-bottom: 15px
-}
-
-.jobsform-success-one-more {
-    border-bottom: 1px dotted #0851a3;
-    color: #0851a3;
-    font-size: 12px;
-    line-height: 16px;
-    cursor: pointer
-}
-
-.jobsform-loading {
-    background: #f5f5f6 url(//st.worldota.net/master/ea4cbe5-2464cde/img/deals_loading.gif) no-repeat 50% 50%;
-    background-color: rgba(255, 255, 255, 0.7);
-    height: 100%;
-    left: 0;
-    margin: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    z-index: 3
-}
-
-.jobsform-status-warning .jobsform-warning {
-    display: block
-}
-
-.jobsform-status-error .jobsform-error {
-    display: block
-}
-
-.jobsform-status-loading .jobsform-loading {
-    display: block
-}
-
-.jobsform-status-success .jobsform-success {
-    display: block
-}
-
-.jobsbenefits {
-    margin: 0 0 0 -25px;
-    overflow: hidden
-}
-
-.jobsbenefits-title {
-    font-size: 20px;
-    line-height: 23px;
-    margin: 30px 25px 20px;
-    color: #0851a3;
-    font-weight: normal;
-    padding: 0;
-    text-shadow: 0 1px 0 #fff
-}
-
-.jobsbenefits-col {
-    float: left;
-    margin: 0 0 0 25px;
-    width: 303px
-}
+/* cuadro con sombra para autenticacion */
 
-.jobsbenefits-item {
-    background: #fff;
-    border-radius: 3px;
-    display: block;
-    margin: 0 0 25px;
-    padding: 15px 20px;
-    vertical-align: top
-}
-
-.jobsbenefits-item-title {
-    color: #989898;
-    font-size: 14px;
-    line-height: 16px;
-    margin: 10px 0
-}
-
-.jobsbenefits-icon {
-    display: inline-block;
-    margin: -10px 15px 0 0;
-    vertical-align: top
-}
-
-.jobsbenefits-icon-learn {
-    background: url(//st.worldota.net/master/ea4cbe5-2464cde/img/bonuses/learn.png) no-repeat 50% 50%;
-    height: 34px;
-    width: 28px
-}
-
-.jobsbenefits-icon-clock {
-    background: url(//st.worldota.net/master/ea4cbe5-2464cde/img/bonuses/clock.png) no-repeat 50% 50%;
-    height: 30px;
-    width: 30px
-}
-
-.jobsbenefits-icon-workplace {
-    background: url(//st.worldota.net/master/ea4cbe5-2464cde/img/bonuses/workplace.png) no-repeat 50% 50%;
-    height: 30px;
-    width: 40px
-}
-
-.jobsbenefits-icon-medbox {
-    background: url(//st.worldota.net/master/ea4cbe5-2464cde/img/bonuses/medbox.png) no-repeat 50% 50%;
-    height: 30px;
-    width: 40px
-}
-
-.jobsbenefits-icon-games {
-    background: url(//st.worldota.net/master/ea4cbe5-2464cde/img/bonuses/games.png) no-repeat 50% 50%;
-    height: 30px;
-    width: 40px
-}
-
-.jobsbenefits-icon-food {
-    background: url(//st.worldota.net/master/ea4cbe5-2464cde/img/bonuses/food.png) no-repeat 50% 50%;
-    height: 30px;
-    width: 40px
-}
-
-.jobsbenefits-p {
-    font-size: 12px;
-    line-height: 16px
-}
-
-.cancelbookingpopup {
-    background: #f5f5f6;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
-    font-size: 11px;
-    margin: 0 auto;
-    padding: 20px;
-    position: relative;
-    text-align: left;
-    width: 620px
-}
-
-.cancelbookingpopup-loading:before {
-    background: #f5f5f6 url(//st.worldota.net/master/ea4cbe5-2464cde/img/spinner-grey-3.gif) no-repeat center;
-    bottom: 0;
-    content: '';
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
-    z-index: 1
-}
-
-.cancelbookingpopup-title {
-    font-size: 16px;
-    font-weight: normal;
-    margin-bottom: 12px;
-    text-transform: uppercase
-}
-
-.cancelbookingpopup-p {
-    margin-bottom: 10px
-}
-
-.cancelbookingpopup-cancellation-policy {
-    margin-bottom: 20px
-}
-
-.cancelbookingpopup-cancellation-policy .cancelbookingpopuplation-title {
-    display: none
-}
-
-.cancelbookingpopup-proceed,
-.cancelbookingpopup-back {
-    vertical-align: middle
-}
-
-.cancelbookingpopup-proceed {
-    margin-right: 20px
-}
-
-.cancelbookingpopup-back {
-    border-bottom: 1px solid #7ab4dd;
-    color: #0071cf;
-    cursor: pointer;
-    display: inline-block;
-    line-height: 12px;
-    text-decoration: none
-}
-
-.cancelbookingpopup-back:visited {
-    color: #5c5ec0
-}
-
-.cancelbookingpopup-close {
-    cursor: pointer;
-    font-family: Verdana, sans-serif;
-    font-size: 16px;
-    line-height: 12px;
-    position: absolute;
-    right: 5px;
-    top: 5px
-}
-
-@font-face {
-    font-family: 'Ostrovok-Icons';
-    src: url(//st.worldota.net/master/ea4cbe5-2464cde/fonts/icons/icons.eot);
-    src: url(//st.worldota.net/master/ea4cbe5-2464cde/fonts/icons/icons.eot#iefix) format("embedded-opentype"), url(//st.worldota.net/master/ea4cbe5-2464cde/fonts/icons/icons.ttf) format("truetype"), url(//st.worldota.net/master/ea4cbe5-2464cde/fonts/icons/icons.svg#icomoon) format("svg");
-    font-weight: normal;
-    font-style: normal
-}
 
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
-    @font-face {
-        font-family: 'Ostrovok-Icons';
-        src: url(//st.worldota.net/master/ea4cbe5-2464cde/fonts/icons/icons.svg#icomoon) format("svg");
-        font-weight: normal;
-        font-style: normal
-    }
-}
-
-
-
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
-    @font-face {
-        font-family: 'Ostrovok-Icons';
-        src: url(//st.worldota.net/master/ea4cbe5-2464cde/fonts/icons/icons.svg#icomoon) format("svg");
-        font-weight: normal;
-        font-style: normal
-    }
-}
-
-
-
-
-
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
-    @font-face {
-        font-family: 'Ostrovok-Icons';
-        src: url(//st.worldota.net/master/ea4cbe5-2464cde/fonts/icons/icons.svg#icomoon) format("svg");
-        font-weight: normal;
-        font-style: normal
-    }
-}
-
-
-@font-face {
-    font-family: 'Ostrovok-Icons';
-    src: url(//st.worldota.net/master/ea4cbe5-2464cde/fonts/icons/icons.eot);
-    src: url(//st.worldota.net/master/ea4cbe5-2464cde/fonts/icons/icons.eot#iefix) format("embedded-opentype"), url(//st.worldota.net/master/ea4cbe5-2464cde/fonts/icons/icons.ttf) format("truetype"), url(//st.worldota.net/master/ea4cbe5-2464cde/fonts/icons/icons.svg#icomoon) format("svg");
-    font-weight: normal;
-    font-style: normal
-}
-
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
-    @font-face {
-        font-family: 'Ostrovok-Icons';
-        src: url(//st.worldota.net/master/ea4cbe5-2464cde/fonts/icons/icons.svg#icomoon) format("svg");
-        font-weight: normal;
-        font-style: normal
-    }
-}
-
-
-.usermenu-select-list {
-    border-radius: 0 0 2px 2px;
-    margin-top: 28px
-}
-
-.usermenu-select-option-name {
-    color: #565d61;
-    display: block;
-    text-decoration: none
-}
-
-.usermenu-select-option:hover .usermenu-select-option-name {
-    color: #fff
-}
-
-.usermenu-select-option:first-child {
-    padding-top: 4px
-}
-
-.header-account {
-    float: right;
-    margin-left: 10px;
-    margin-top: 14px;
-    overflow: hidden;
-    padding-left: 1px;
-    padding-right: 26px
-}
-
-.header-account .header-select-value {
-    padding: 0 0 0 26px
-}
-
-.header-account-indicator {
-    max-width: 180px;
-    overflow: hidden;
-    position: relative;
-    text-overflow: ellipsis;
-    text-transform: uppercase
-}
-
-.header-account-worm {
-    left: 9px;
-    position: absolute;
-    top: 0
-}
-
-.header-account-open .header-account-wormpath {
-    fill: #565d61
-}
-
-.header-account-open:active .header-account-wormpath {
-    fill: white
-}
-
-.header-account-arrow {
-    top: 12px
-}
-
-.header-account-indicator-list {
-    list-style: none;
-    position: relative
-}
-
-.header-account-indicator-authpane,
-.header-account-indicator-item {
-    padding: 4px 0
-}
+/*Tamaño del cuadro de autenticacion */
 
 .auth-container.header-select-list {
-    border-radius: 2px 0 2px 2px;
-    font-weight: 400;
-    padding: 11px 0 0;
-    white-space: normal;
-    width: 272px
+	border-radius: 2px 0 2px 2px;
+	font-weight: 400;
+	padding: 11px 0 0;
+	white-space: normal;
+	width: 272px
 }
 
+
+/*Tamaño del cuadro de autenticacion */
+
 .auth-section {
-    border-bottom: 1px solid #f5f6f8;
-    border-top: 1px solid #cdd3d7;
-    padding: 0 14px
+	border-bottom: 1px solid #f5f6f8;
+	border-top: 1px solid #cdd3d7;
+	padding: 0 14px
 }
 
 .auth-sign-in-up {
-    border-top: 0;
-    overflow: hidden;
-    padding-bottom: 10px;
-    position: relative
+	border-top: 0;
+	overflow: hidden;
+	padding-bottom: 10px;
+	position: relative
 }
 
 .auth-tabs {
-    margin-bottom: 10px;
-    padding: 0 14px
+	margin-bottom: 10px;
+	padding: 0 14px
 }
 
 .auth-tab {
-    border-bottom: 1px solid #b3b5b6;
-    color: #7f7f7f;
-    cursor: pointer;
-    display: inline-block;
-    font-size: 12px;
-    font-weight: 700;
-    line-height: 13px;
-    margin: 0 10px;
-    text-transform: uppercase
+	border-bottom: 1px solid #b3b5b6;
+	color: #7f7f7f;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 13px;
+	margin: 0 10px;
+	text-transform: uppercase
 }
 
 .auth-tab-current {
-    border: 0;
-    color: #333;
-    cursor: default
+	border: 0;
+	color: #333;
+	cursor: default
 }
 
 .auth-tab-sign-in {
-    margin-left: 0;
-    position: relative
+	margin-left: 0;
+	position: relative
 }
 
 .auth-tab-sign-in:after {
-    border-right: 1px solid #c9d1d6;
-    content: '';
-    font-size: 0;
-    height: 18px;
-    position: absolute;
-    width: 0;
-    top: -3px;
-    right: -10px
+	border-right: 1px solid #c9d1d6;
+	content: '';
+	font-size: 0;
+	height: 18px;
+	position: absolute;
+	width: 0;
+	top: -3px;
+	right: -10px
 }
 
 .auth-input {
-    border: 1px solid #b5c9dc;
-    border-radius: 2px;
-    color: #333;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 31px;
-    height: 33px;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    padding: 0 10px;
-    width: 100%;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box
+	border: 1px solid #b5c9dc;
+	border-radius: 2px;
+	color: #333;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 31px;
+	height: 33px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	padding: 0 10px;
+	width: 100%;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box
 }
 
 .auth-input::-webkit-input-placeholder {
-    color: #adbcc7;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 31px
+	color: #adbcc7;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 31px
 }
 
 .auth-input:-moz-placeholder {
-    color: #adbcc7;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 31px
+	color: #adbcc7;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 31px
 }
 
 .auth-input:-ms-input-placeholder {
-    color: #adbcc7;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 31px
+	color: #adbcc7;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 31px
 }
 
 .auth-sign-in-login {
-    margin-bottom: 5px
+	margin-bottom: 5px
 }
 
 .auth-sign-in-password,
 .auth-sign-up-email {
-    margin-bottom: 11px
+	margin-bottom: 11px
 }
 
 .auth-remind-link {
-    color: #92979a;
-    cursor: pointer;
-    font-size: 11px;
-    left: 14px;
-    line-height: 30px;
-    position: absolute;
-    text-decoration: underline;
-    top: 82px;
-    z-index: 1
+	color: #92979a;
+	cursor: pointer;
+	font-size: 11px;
+	left: 14px;
+	line-height: 30px;
+	position: absolute;
+	text-decoration: underline;
+	top: 82px;
+	z-index: 1
 }
 
 .auth-remind-link-disabled {
-    cursor: default;
-    text-decoration: none
+	cursor: default;
+	text-decoration: none
 }
 
 .auth-sign-in-submit,
 .auth-sign-up-submit {
-    float: right;
-    padding-left: 0;
-    padding-right: 0;
-    min-width: 120px
+	float: right;
+	padding-left: 0;
+	padding-right: 0;
+	min-width: 120px
 }
 
 .auth-sign-up-submit {
-    padding: 0 13px
+	padding: 0 13px
 }
 
 .auth-form-fading {
-    left: 14px;
-    position: absolute;
-    right: 14px;
-    top: 0;
-    z-index: 1
+	left: 14px;
+	position: absolute;
+	right: 14px;
+	top: 0;
+	z-index: 1
 }
 
 .auth-remind {
-    overflow: hidden;
-    position: relative
+	overflow: hidden;
+	position: relative
 }
 
 .auth-remind-form {
-    padding-top: 7px;
-    padding-bottom: 11px;
-    position: relative
-}
-
-.auth-remind-form-loading {
-    bottom: 0;
-    background: url(//st.worldota.net/master/ea4cbe5-2464cde/img/spinners/tiny-grey-spinner.gif) 50% 50% no-repeat;
-    left: 0;
-    opacity: 0;
-    position: absolute;
-    right: 0;
-    top: 0
+	padding-top: 7px;
+	padding-bottom: 11px;
+	position: relative
 }
 
 .auth-remind-tip {
-    color: #747e83;
-    font-size: 12px;
-    line-height: 13px;
-    margin-bottom: 9px;
-    margin-right: 20px
+	color: #747e83;
+	font-size: 12px;
+	line-height: 13px;
+	margin-bottom: 9px;
+	margin-right: 20px
 }
 
 .auth-remind-email,
 .auth-remind-submit {
-    display: inline-block;
-    vertical-align: top
+	display: inline-block;
+	vertical-align: top
 }
 
 .auth-remind-email {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 25px;
-    height: 27px;
-    padding: 0 7px;
-    width: 165px
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 25px;
+	height: 27px;
+	padding: 0 7px;
+	width: 165px
 }
 
 .auth-remind-email::-webkit-input-placeholder {
-    color: #adbcc7;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 25px
+	color: #adbcc7;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 25px
 }
 
 .auth-remind-email:-moz-placeholder {
-    color: #adbcc7;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 25px
+	color: #adbcc7;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 25px
 }
 
 .auth-remind-email:-ms-input-placeholder {
-    color: #adbcc7;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 25px
+	color: #adbcc7;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 25px
 }
 
 .auth-remind-submit.button {
-    border-radius: 0 2px 2px 0;
-    font-size: 12px;
-    height: 27px;
-    line-height: 27px;
-    margin-left: -1px;
-    padding: 0 6px;
-    text-align: center;
-    text-shadow: none;
-    text-transform: none;
-    width: 80px
+	border-radius: 0 2px 2px 0;
+	font-size: 12px;
+	height: 27px;
+	line-height: 27px;
+	margin-left: -1px;
+	padding: 0 6px;
+	text-align: center;
+	text-shadow: none;
+	text-transform: none;
+	width: 80px
 }
 
 .auth-remind-submit.button:active {
-    line-height: 24px
+	line-height: 24px
 }
 
 .auth-remind-close {
-    cursor: pointer;
-    position: absolute;
-    right: 0;
-    top: 5px;
-    background: url(//st.worldota.net/master/ea4cbe5-2464cde/img/sprites/header-footer/remind-close.png) no-repeat 50% 50%;
-    height: 20px;
-    width: 20px
+	cursor: pointer;
+	position: absolute;
+	right: 0;
+	top: 5px;
+	background: url(//st.worldota.net/master/ea4cbe5-2464cde/img/sprites/header-footer/remind-close.png) no-repeat 50% 50%;
+	height: 20px;
+	width: 20px
 }
 
 .auth-remind-result {
-    display: table-cell;
-    font-size: 12px;
-    opacity: 0;
-    text-align: center;
-    vertical-align: middle
+	display: table-cell;
+	font-size: 12px;
+	opacity: 0;
+	text-align: center;
+	vertical-align: middle
 }
 
 .auth-remind-result-title {
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 20px
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px
 }
 
 .auth-remind-success {
-    color: #565d61
+	color: #565d61
 }
 
 .auth-remind-success .auth-remind-result-title {
-    color: #333
+	color: #333
 }
 
 .auth-remind-error {
-    color: #b33;
-    line-height: 15px
+	color: #b33;
+	line-height: 15px
 }
 
 .auth-remind-error .auth-remind-result-title {
-    color: #9f0000
+	color: #9f0000
 }
 
 .auth-misc {
-    border-bottom: 0;
-    line-height: 16px;
-    padding-top: 10px;
-    padding-bottom: 12px
+	border-bottom: 0;
+	line-height: 16px;
+	padding-top: 10px;
+	padding-bottom: 12px
 }
 
 .auth-social {
-    border-bottom: 1px solid #d4dade;
-    padding-bottom: 13px
+	border-bottom: 1px solid #d4dade;
+	padding-bottom: 13px
 }
 
 .auth-title {
-    color: #565d61;
-    font-size: 13px;
-    font-weight: 700;
-    margin-bottom: 9px
+	color: #565d61;
+	font-size: 13px;
+	font-weight: 700;
+	margin-bottom: 9px
 }
 
 .auth-benefits {
-    padding-top: 9px
+	padding-top: 9px
 }
 
 .auth-benefits .auth-title {
-    font-size: 14px;
-    margin-bottom: 2px
+	font-size: 14px;
+	margin-bottom: 2px
 }
 
 .auth-benefits-item {
-    color: #565d61;
-    font-size: 13px;
-    font-weight: 600;
-    margin-left: 24px;
-    padding-top: 5px;
-    position: relative
+	color: #565d61;
+	font-size: 13px;
+	font-weight: 600;
+	margin-left: 24px;
+	padding-top: 5px;
+	position: relative
 }
 
 .auth-benefits-item-icon {
-    left: -23px;
-    position: absolute;
-    top: 8px
+	left: -23px;
+	position: absolute;
+	top: 8px
 }
 
 .auth-benefits-item-icon-path {
-    fill: #41a111
+	fill: #41a111
 }
 
 .auth-offer-notice {
-    border-top: 1px solid #cdd3d7;
-    color: #a0a5a9;
-    font-size: 11px;
-    font-weight: 600;
-    margin: 0 14px;
-    padding-bottom: 17px;
-    padding-top: 7px
+	border-top: 1px solid #cdd3d7;
+	color: #a0a5a9;
+	font-size: 11px;
+	font-weight: 600;
+	margin: 0 14px;
+	padding-bottom: 17px;
+	padding-top: 7px
 }
 
 .auth-offer-notice-link {
-    color: #a0a5a9
+	color: #a0a5a9
 }
 
 .ie8 .auth-sign-in-password {
-    font-family: Verdana, sans-serif
+	font-family: Verdana, sans-serif
 }
 
 .social-auth {
-    background: #fff;
-    border: 1px solid #bbcad9;
-    border-left: 0;
-    border-radius: 0 2px 2px 0;
-    cursor: pointer;
-    display: inline-block;
-    font-size: 11px;
-    line-height: 19px;
-    margin-left: 24px;
-    padding: 0 4px;
-    position: relative;
-    vertical-align: top;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale
+	background: #fff;
+	border: 1px solid #bbcad9;
+	border-left: 0;
+	border-radius: 0 2px 2px 0;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 11px;
+	line-height: 19px;
+	margin-left: 24px;
+	padding: 0 4px;
+	position: relative;
+	vertical-align: top;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale
 }
 
 .social-auth:before {
-    content: '';
-    right: 100%;
-    position: absolute;
-    top: -1px
+	content: '';
+	right: 100%;
+	position: absolute;
+	top: -1px
 }
 
 .social-auth-fb {
-    color: #345487
+	color: #345487
 }
-
+/*Social Facebook imagen login*/
 .social-auth-fb:before {
-    background: url(//st.worldota.net/master/ea4cbe5-2464cde/img/sprites/header-footer/auth-fb.png) no-repeat 50% 50%;
-    height: 21px;
-    width: 19px
-}
-
-.social-auth-vk {
-    color: #5b8bb6;
-    margin-left: 19px
-}
-
-.social-auth-vk:before {
-    background: url(//st.worldota.net/master/ea4cbe5-2464cde/img/sprites/header-footer/auth-vk.png) no-repeat 50% 50%;
-    height: 21px;
-    width: 19px
-}
-
+	background: url("images/auth-fb.png") no-repeat 50% 50%;
+	height: 21px;
+	width: 19px
+}/*Social Facebook imagen login*/
+/*Social Google imagen login*/
 .social-auth-gl {
-    color: #3683de
+	color: #3683de
 }
 
 .social-auth-gl:before {
-    background: url(//st.worldota.net/master/ea4cbe5-2464cde/img/sprites/header-footer/auth-google.png) no-repeat 50% 50%;
-    height: 21px;
-    width: 19px
+	background: url("images/auth-google.png") no-repeat 50% 50%;
+	height: 21px;
+	width: 19px
 }
+/*Social Google imagen login*/
 
 * {
-    border: 0;
-    margin: 0;
-    padding: 0
+	border: 0;
+	margin: 0;
+	padding: 0
 }
 
 html,
 body {
-    color: #292f37;
-    height: 100%;
-    margin: 0;
-    padding: 0;
+	color: #292f37;
+	height: 100%;
+	margin: 0;
+	padding: 0;
 	background: #f5f5f6
 }
 
 body,
 button {
-    font-size: 13px;
-    line-height: 1.231;
-    font-family: "Open Sans", Verdana, sans-serif
+	font-size: 13px;
+	line-height: 1.231;
+	font-family: "Open Sans", Verdana, sans-serif
 }
 
 input {
-    font-family: "Open Sans", Verdana, sans-serif
+	font-family: "Open Sans", Verdana, sans-serif
 }
