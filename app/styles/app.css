@@ -1,13 +1,13 @@
 @font-face {
 	font-family: 'Open Sans';
-	src: url(//st.worldota.net/master/ea4cbe5-2464cde/fonts/opensans/opensans-regular.woff2) format("woff2"), url(//st.worldota.net/master/ea4cbe5-2464cde/fonts/opensans/opensans-regular.woff) format("woff");
+	src: url('font/opensans-regular.woff2') format("woff2"), url('font/opensans-regular.woff') format("woff");
 	font-weight: 400;
 	font-style: normal
 }
 
 @font-face {
 	font-family: 'Open Sans';
-	src: url(//st.worldota.net/master/ea4cbe5-2464cde/fonts/opensans/opensans-semibold.woff2) format("woff2"), url(//st.worldota.net/master/ea4cbe5-2464cde/fonts/opensans/opensans-semibold.woff) format("woff");
+	src: url('font/opensans-semibold.woff2') format("woff2"), url('font/opensans-semibold.woff') format("woff");
 	font-weight: 600;
 	font-style: normal
 }
@@ -17,7 +17,7 @@
 
 @font-face {
 	font-family: 'Open Sans';
-	src: url(//st.worldota.net/master/ea4cbe5-2464cde/fonts/opensans/opensans-bold.woff2) format("woff2"), url(//st.worldota.net/master/ea4cbe5-2464cde/fonts/opensans/opensans-bold.woff) format("woff");
+	src: url('font/opensans-bold.woff2') format("woff2"), url('font/opensans-bold.woff') format("woff");
 	font-weight: 700;
 	font-style: normal
 }
@@ -345,7 +345,7 @@
 	position: absolute;
 	right: 0;
 	top: 5px;
-	background: url(//st.worldota.net/master/ea4cbe5-2464cde/img/sprites/header-footer/remind-close.png) no-repeat 50% 50%;
+	background: url("images/remind-close.png") no-repeat 50% 50%;
 	height: 20px;
 	width: 20px
 }
