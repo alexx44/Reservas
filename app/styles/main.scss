@@ -437,7 +437,7 @@ body {
 	position: absolute;
 	right: 0;
 	top: 5px;
-	background: url("images/remind-close.png") no-repeat 50% 50%;
+	background: url("/app/images/remind-close.png") no-repeat 50% 50%;
 	height: 20px;
 	width: 20px
 }
@@ -567,7 +567,7 @@ body {
 }
 /*Social Facebook imagen login*/
 .social-auth-fb:before {
-	background: url("images/auth-fb.png") no-repeat 50% 50%;
+	background: url("/app/images/auth-fb.png") no-repeat 50% 50%;
 	height: 21px;
 	width: 19px
 }/*Social Facebook imagen login*/
@@ -577,7 +577,7 @@ body {
 }
 
 .social-auth-gl:before {
-	background: url("images/auth-google.png") no-repeat 50% 50%;
+	background: url("/app/images/auth-google.png") no-repeat 50% 50%;
 	height: 21px;
 	width: 19px
 }
