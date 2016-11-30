@@ -34,6 +34,11 @@ angular
         controller: 'Login',
         controllerAs: 'login'
       })
+		.when('/register', {
+        templateUrl: 'views/formoid.html',
+        controller: 'register',
+        controllerAs: 'register'
+      })
       .otherwise({
         redirectTo: '/'
       });
