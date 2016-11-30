@@ -40,6 +40,6 @@ angular
         controllerAs: 'register'
       })
       .otherwise({
-        redirectTo: '/'
+        redirectTo: '/#'
       });
   });
