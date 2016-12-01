@@ -35,7 +35,7 @@ angular
         controllerAs: 'login'
       })
 		.when('/register', {
-        templateUrl: 'views/formoid.html',
+        templateUrl: 'views/register.html',
         controller: 'register',
         controllerAs: 'register'
       })
