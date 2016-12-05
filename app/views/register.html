@@ -1,4 +1,4 @@
-<form>
+<form class="form-inline">
 	<fieldset>
 		<legend>Registro</legend>
 
@@ -42,65 +42,64 @@
 		</div>
 		<br>
 		<div class="row">
-		<div class="col-lg-5">
-			<div class="input-group input-append dropdown combobox" data-initialize="combobox" id="inputwithcombobox">
-			<span class="input-group-addon">Ciudad</span>
-			<input id="inputwithcomboboxInput" name="inputwithcomboboxInput" type="text" class="form-control" placeholder="Ciudad" required="">
-				<div class="input-group-btn">
-					<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></button>
-					<ul class="dropdown-menu dropdown-menu-right" role="menu">
-						<li> San Antonio</li>
-						<li> Algarrobo</li>
-						<li> Cartagena</li>
-						<li> El Quisco</li>
-						<li> El Tabo</li>
-						<li> Santo Domingo</li>
-					</ul>
-				</div>
-			</div>
-		</div>		
-		</div>
-		<!-- Input With Combobox http://getfuelux.com/javascript.html#combobox -->
-		<div class="form-group">
-			<label class="control-label" for="inputwithcomboboxInput">Region</label>
-
-			<div class="input-group input-append dropdown combobox" data-initialize="combobox" id="inputwithcombobox">
-				<input id="inputwithcomboboxInput" name="inputwithcomboboxInput" type="text" aria-label="" class="form-control" placeholder="Region" required="">
-				<div class="input-group-btn">
-					<button type="button" class="btn btn-default dropdown-toggle" aria-label="Region autofill suggestions" data-toggle="dropdown"><span class="caret"></span></button>
-					<ul class="dropdown-menu dropdown-menu-right" role="menu">
-					<li class="data-value"><a href="#" class="href">ARICA Y PARINACOTA</a></li>
-					<li class="data-value"><a href="#" class="href">TARAPACÁ</a></li>
-					<li class="data-value"><a href="#" class="href">ANTOFAGASTA</a></li>
-					<li class="data-value"><a href="#" class="href">ATACAMA</a></li>
-					<li class="data-value"><a href="#" class="href">COQUIMBO</a></li>
-					<li class="data-value"><a href="#" class="href">VALPARAÍSO</a></li>
-					<li class="data-value"><a href="#" class="href">DEL LIBERTADOR GRAL. BERNARDO O'HIGGINS</a></li>
-					<li class="data-value"><a href="#" class="href">DEL MAULE</a></li>
-					<li class="data-value"><a href="#" class="href">DEL BIOBÍO</a></li>
-					<li class="data-value"><a href="#" class="href">DE LA ARAUCANÍA</a></li>
-					<li class="data-value"><a href="#" class="href">DE LOS RÍOS</a></li>
-					<li class="data-value"><a href="#" class="href">DE LOS LAGOS</a></li>
-					<li class="data-value"><a href="#" class="href">AISÉN DEL GRAL. CARLOS IBAÑEZ DEL CAMPO</a></li>
-					<li class="data-value"><a href="#" class="href">MAGALLANES Y DE LA ANTÁRTICA CHILENA</a></li>
-					<li class="data-value"><a href="#" class="href">METROPOLITANA DE SANTIAGO</a></li>
-					</ul>
+			<div class="col-lg-5">
+				<div class="input-group input-append dropdown combobox" data-initialize="combobox" id="inputwithcombobox">
+					<span class="input-group-addon">Ciudad</span>
+					<div class="input-group-btn">
+						<select name="ciudad" id="" class="form-control">
+							<option value="" class="value">CIUDAD</option>
+							<option value="San Antonio">San Antonio</option>
+							<option value="Algarrobo">Algarrobo</option>
+							<option value="Cartagena">Cartagena</option>
+							<option value="El Quisco">El Quisco</option>
+							<option value="El Tabo">El Tabo</option>
+							<option value="Santo Domingo">Santo Domingo</option>
+						</select>
+					</div>
 				</div>
 			</div>
 		</div>
-		<!-- Text input http://getbootstrap.com/css/#forms -->
-		<div class="form-group">
-			<label for="textinput" class="control-label"></label>
-
-			<input type="text" class="form-control" id="textinput" placeholder="Codigo Postal" required="">
-
+		<br>
+		<div class="row">
+			<div class="col-lg-5">
+				<div class="input-group input-append dropdown combobox" data-initialize="combobox" id="inputwithcombobox">
+					<span class="input-group-addon">Region</span>
+					<div class="input-group-btn">
+						<select class="form-control" name="region" id="">
+							<option value="" class="value">REGION</option>
+							<option class="data-value">ARICA Y PARINACOTA</option>
+							<option class="data-value">TARAPACÁ</option>
+							<option class="data-value">ANTOFAGASTA</option>
+							<option class="data-value">ATACAMA</option>
+							<option class="data-value">COQUIMBO</option>
+							<option class="data-value">VALPARAÍSO</option>
+							<option class="data-value">DEL LIBERTADOR GRAL. BERNARDO O'HIGGINS</option>
+							<option class="data-value">DEL MAULE</option>
+							<option class="data-value">DEL BIOBÍO</option>
+							<option class="data-value">DE LA ARAUCANÍA</option>
+							<option class="data-value">DE LOS RÍOS</option>
+							<option class="data-value">DE LOS LAGOS</option>
+							<option class="data-value">AISÉN DEL GRAL. CARLOS IBAÑEZ DEL CAMPO</option>
+							<option class="data-value">MAGALLANES Y DE LA ANTÁRTICA CHILENA</option>
+							<option class="data-value">METROPOLITANA DE SANTIAGO</option>
+						</select>
+										</div>
+										<label for="textinput" class="control-label"></label>
+					<input type="text" class="form-control" id="textinput" placeholder="Codigo Postal" required="">
+				</div>
+				
+					
+			</div>
 
 		</div>
+
+		<!-- Aqui vamos-->
 		<!-- Text input http://getbootstrap.com/css/#forms -->
 		<div class="form-group">
 			<label for="textinput" class="control-label">Fono</label>
 
 			<input type="tel" class="form-control" id="textinput" placeholder="Fono Fijo" required="">
+
 
 
 		</div>
