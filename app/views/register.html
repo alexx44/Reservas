@@ -14,7 +14,7 @@
 		<br>
 		<!-- RUT Y CONTACTO-->
 		<div class="row">
-			<div class="col-lg-5">
+			<div class="col-lg-6">
 				<div class="input-group">
 					<span class="input-group-addon" id="basic-addon1">RUT</span>
 					<input type="text" class="form-control" placeholder="RUT Comercial" maxlength="20">
@@ -27,8 +27,9 @@
 			</div>
 		</div>
 		<br>
+		<!--DIRECCION-->
 		<div class="row">
-			<div class="col-lg-5">
+			<div class="col-lg-6">
 				<div class="input-group">
 					<span class="input-group-addon" id="spandireccion">Direccion</span>
 					<input type="text" class="form-control" id="inputdireccion" placeholder="Calle" required>
@@ -41,8 +42,9 @@
 			</div>
 		</div>
 		<br>
+	<!--CIUDAD-->
 		<div class="row">
-			<div class="col-lg-5">
+			<div class="col-lg-6">
 				<div class="input-group input-append dropdown combobox" data-initialize="combobox" id="inputwithcombobox">
 					<span class="input-group-addon">Ciudad</span>
 					<div class="input-group-btn">
@@ -60,38 +62,36 @@
 			</div>
 		</div>
 		<br>
-		<div class="row">
-			<div class="col-lg-5">
-				<div class="input-group input-append dropdown combobox" data-initialize="combobox" id="inputwithcombobox">
-					<span class="input-group-addon">Region</span>
-					<div class="input-group-btn">
-						<select class="form-control" name="region" id="">
-							<option value="" class="value">REGION</option>
-							<option class="data-value">ARICA Y PARINACOTA</option>
-							<option class="data-value">TARAPACÁ</option>
-							<option class="data-value">ANTOFAGASTA</option>
-							<option class="data-value">ATACAMA</option>
-							<option class="data-value">COQUIMBO</option>
-							<option class="data-value">VALPARAÍSO</option>
-							<option class="data-value">DEL LIBERTADOR GRAL. BERNARDO O'HIGGINS</option>
-							<option class="data-value">DEL MAULE</option>
-							<option class="data-value">DEL BIOBÍO</option>
-							<option class="data-value">DE LA ARAUCANÍA</option>
-							<option class="data-value">DE LOS RÍOS</option>
-							<option class="data-value">DE LOS LAGOS</option>
-							<option class="data-value">AISÉN DEL GRAL. CARLOS IBAÑEZ DEL CAMPO</option>
-							<option class="data-value">MAGALLANES Y DE LA ANTÁRTICA CHILENA</option>
-							<option class="data-value">METROPOLITANA DE SANTIAGO</option>
-						</select>
-										</div>
-										<label for="textinput" class="control-label"></label>
-					<input type="text" class="form-control" id="textinput" placeholder="Codigo Postal" required="">
-				</div>
-				
-					
+		<!-- REGIONES -->
+<div class="row">
+			<div class="col-lg-6">
+		<div class="input-group input-append dropdown combobox" data-initialize="combobox" id="inputwithcombobox">
+			<span class="input-group-addon">Region</span>
+			<div class="input-group-btn">
+				<select class="form-control" name="region" id="">
+					<option value="" class="value">REGION</option>
+					<option class="data-value">ARICA Y PARINACOTA</option>
+					<option class="data-value">TARAPACÁ</option>
+					<option class="data-value">ANTOFAGASTA</option>
+					<option class="data-value">ATACAMA</option>
+					<option class="data-value">COQUIMBO</option>
+					<option class="data-value">VALPARAÍSO</option>
+					<option class="data-value">DEL LIBERTADOR GRAL. BERNARDO O'HIGGINS</option>
+					<option class="data-value">DEL MAULE</option>
+					<option class="data-value">DEL BIOBÍO</option>
+					<option class="data-value">DE LA ARAUCANÍA</option>
+					<option class="data-value">DE LOS RÍOS</option>
+					<option class="data-value">DE LOS LAGOS</option>
+					<option class="data-value">AISÉN DEL GRAL. CARLOS IBAÑEZ DEL CAMPO</option>
+					<option class="data-value">MAGALLANES Y DE LA ANTÁRTICA CHILENA</option>
+					<option class="data-value">METROPOLITANA DE SANTIAGO</option>
+				</select>
 			</div>
-
 		</div>
+		<input type="text" class="form-control" id="textinput" placeholder="Codigo Postal" required="" size="10">
+	</div>
+</div>
+		<br>
 
 		<!-- Aqui vamos-->
 		<!-- Text input http://getbootstrap.com/css/#forms -->
