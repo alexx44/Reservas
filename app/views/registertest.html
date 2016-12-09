@@ -1,0 +1,201 @@
+<head>
+    <title>Formulario Registro</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<form class="form-inline">
+    <fieldset>
+        <legend>Registro</legend>
+        <div class="">
+            <div class="">
+                <div class="">
+                    <span class="" id="spannombre">Nombre</span>
+                    <input type="text" class="" placeholder="Nombre Fantasia" required maxlength="60">
+                </div>
+            </div>
+        </div>
+        <br>
+        <!-- RUT Y CONTACTO-->
+        <div class="">
+            <div class="">
+                <div class="">
+                    <span class="" id="basic-addon1">RUT</span>
+                    <input type="text" class="" placeholder="RUT Comercial" maxlength="20">
+                    <input type="text" class="" placeholder="Contacto">
+
+                </div>
+            </div>
+        </div>
+        <br>
+        <!--DIRECCION-->
+        <div class="">
+            <div class="">
+                <div class="">
+                    <span class="" id="spandireccion">Direccion</span>
+                    <input type="text" class="" id="inputdireccion" placeholder="Calle" required>
+                    <input type="text" class="" id="inputdireccionnumero" placeholder="Número" required>
+                    <input type="text" class="" id="textinput" placeholder="Codigo Postal" required="" size="14">
+                </div>
+            </div>
+        </div>
+        <br>
+        <!-- REGIONES -->
+        <div class="">
+            <div class="">
+                <div class="" data-initialize="" id="inputwithcombobox">
+                    <span class="">Region</span>
+                    <select class="" name="region" id="">
+                        <option value="" class="value">REGION</option>
+                        <option class="data-value">ARICA Y PARINACOTA</option>
+                        <option class="data-value">TARAPACÁ</option>
+                        <option class="data-value">ANTOFAGASTA</option>
+                        <option class="data-value">ATACAMA</option>
+                        <option class="data-value">COQUIMBO</option>
+                        <option class="data-value">VALPARAÍSO</option>
+                        <option class="data-value">DEL LIBERTADOR GRAL. BERNARDO O'HIGGINS</option>
+                        <option class="data-value">DEL MAULE</option>
+                        <option class="data-value">DEL BIOBÍO</option>
+                        <option class="data-value">DE LA ARAUCANÍA</option>
+                        <option class="data-value">DE LOS RÍOS</option>
+                        <option class="data-value">DE LOS LAGOS</option>
+                        <option class="data-value">AISÉN DEL GRAL. CARLOS IBAÑEZ DEL CAMPO</option>
+                        <option class="data-value">MAGALLANES Y DE LA ANTÁRTICA CHILENA</option>
+                        <option class="data-value">METROPOLITANA DE SANTIAGO</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <br>
+        <!--CIUDAD-->
+        <div class="">
+            <div class="">
+                <div class="" data-initialize="combobox" id="inputwithcombobox">
+                    <span class="">Ciudad</span>
+                    <select name="ciudad" id="" class="">
+                        <option value="" class="value">Ciudad</option>
+                        <option value="San Antonio">San Antonio</option>
+                        <option value="Algarrobo">Algarrobo</option>
+                        <option value="Cartagena">Cartagena</option>
+                        <option value="El Quisco">El Quisco</option>
+                        <option value="El Tabo">El Tabo</option>
+                        <option value="Santo Domingo">Santo Domingo</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <br>
+
+
+        <div class="">
+            <label for="textinput" class="control-label">Fono</label>
+            <input type="tel" class="" id="textinput" placeholder="Fono Fijo" required="">
+
+        </div>
+
+        <div class="">
+            <label for="inputmovil" class="">Movil</label>
+
+            <input type="tel" class="" id="inputmovil" placeholder="+56 9 " required="">
+            <label>
+                <input type="checkbox"> Whatsapp
+            </label>
+        </div>
+
+        <!-- Aqui vamos-->
+
+        <!-- Input With Combobox http://getfuelux.com/javascript.html#combobox -->
+        <div class="">
+            <label class="" for="inputwithcomboboxInput">Tipo Habitacion</label>
+
+            <div class="" data-initialize="combobox" id="inputwithcombobox">
+                <input id="inputwithcomboboxInput" name="inputwithcomboboxInput" type="text" aria-label="" class="" placeholder="placeholder" required="">
+                <div class="">
+                    <button type="" class="" aria-label="Tipo Habitacion autofill suggestions" data-toggle="dropdown"><span class="caret"></span></button>
+                    <select name="Tipo_Habitacion" id="" class="">
+                        <option value="" class="value">Tipo</option>
+                        <option value="San Antonio">San Antonio</option>
+                        <option value="Algarrobo">Algarrobo</option>
+                        <option value="Cartagena">Cartagena</option>
+                        <option value="El Quisco">El Quisco</option>
+                        <option value="El Tabo">El Tabo</option>
+                        <option value="Santo Domingo">Otra</option>
+                    </select>
+                </div>
+
+            </div>
+            <p class="help-block">help</p>
+
+        </div>
+        <!-- Bootstrap Select http://getbootstrap.com/css/#selects -->
+        <div class="form-group">
+            <label class="control-label" for="bootstrapselect">Medios de Pago</label>
+            <div class="controls ">
+                <select id="bootstrapselect" name="bootstrapselect" class="form-control" multiple="" required="">
+                    <option>Option one</option>
+                    <option>Option two</option>
+                </select>
+
+            </div>
+        </div>
+
+        <!-- Text input http://getbootstrap.com/css/#forms -->
+        <div class="form-group">
+            <label for="textinput" class="control-label">Otros</label>
+
+            <input type="text" class="form-control" id="textinput" placeholder="Otros" required="">
+            <p class="help-block">help</p>
+
+        </div>
+        <!-- Fuel UX Checkboxes http://getfuelux.com/javascript.html#checkbox -->
+        <div class="form-group">
+            <label for="checkboxes" class="control-label">Servicios</label>
+            <div class=" required">
+                <div class="checkbox">
+                    <label class="checkbox-custom" data-initialize="checkbox" id="checkboxes-0">
+                        <input class="sr-only" name="checkboxes" type="checkbox" value="Option one">
+                        <span class="checkbox-label">Option one</span>
+                    </label>
+                </div>
+                <div class="checkbox">
+                    <label class="checkbox-custom" data-initialize="checkbox" id="checkboxes-1">
+                        <input class="sr-only" name="checkboxes" type="checkbox" value="Option two">
+                        <span class="checkbox-label">Option two</span>
+                    </label>
+                </div>
+
+            </div>
+        </div>
+        <!-- Input With Combobox http://getfuelux.com/javascript.html#combobox -->
+        <div class="form-group">
+            <label class="control-label" for="inputwithcomboboxInput">Tipo Mascota</label>
+
+            <div class="input-group input-append dropdown combobox" data-initialize="combobox" id="inputwithcombobox">
+                <input id="inputwithcomboboxInput" name="inputwithcomboboxInput" type="text" aria-label="" class="form-control" placeholder="placeholder" required="">
+                <div class="input-group-btn">
+                    <button type="button" class="btn btn-default dropdown-toggle" aria-label="Tipo Mascota autofill suggestions" data-toggle="dropdown"><span class="caret"></span></button>
+                    <ul class="dropdown-menu dropdown-menu-right" role="menu">
+                        <li data-value="Option one"><a href="#">Option one</a></li>
+                        <li data-value="Option two"><a href="#">Option two</a></li>
+                        <li data-value="Option three"><a href="#">Option three</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+
+        </div>
+        <!-- Button http://getbootstrap.com/css/#buttons -->
+        <div class="form-group">
+            <label class="control-label" for="singlebutton"></label>
+            <div class="text-right">
+                <button type="button" id="singlebutton" name="singlebutton" class="btn btn-primary" aria-label="">Guardar</button>
+                <p class="help-block">help</p>
+            </div>
+        </div>
+
+
+    </fieldset>
+</form>
